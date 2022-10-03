@@ -1,0 +1,35 @@
+#logo { 
+	display: block;
+	width: 150px;
+	height: 65px;
+	margin: 0 auto;
+	margin-right: 25px;
+	opacity: 1.75;
+	border-radius: 10px;
+	z-index: 9999;
+	margin-top: -165px;
+	
+	-webkit-transition: transform .2s ease .2s;
+	-moz-transition: transform .2s ease .2s;
+	transition: transform .2s ease .2s;		
+	}
+
+#logo: hover {	
+	
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+	
+}
+	
+
+#banner { 
+	display: block;
+	width: 900px;
+	height: 250px;
+	margin: 0 auto;
+	opacity: 1.75;
+	border-radius: 5px;
+	margin-bottom: 85px;
+	margin-top: -15px;
+	}
